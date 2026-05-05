@@ -4,6 +4,13 @@
 
 Este es un proyecto PHP simple que demuestra el uso de estándares PSR-4 para la carga automática de clases utilizando Composer. El proyecto incluye clases básicas como `User` y `ProductModel` para ilustrar la estructura y el funcionamiento.
 
+PSR (PHP Standards Recommendations) son estándares definidos por el PHP Framework Interop Group (PHP-FIG) para promover la interoperabilidad entre bibliotecas y frameworks PHP.
+
+## Requisitos Previos
+
+- PHP 7.4 o superior
+- Composer (gestor de dependencias para PHP)
+
 ## Instalación
 
 1. Asegúrate de tener PHP y Composer instalados en tu sistema.
@@ -18,7 +25,12 @@ Para ejecutar el proyecto, navega al directorio raíz y ejecuta:
 php index.php
 ```
 
-Esto creará instancias de las clases `User` y `ProductModel` y mostrará sus valores de retorno.
+Esto creará instancias de las clases `User` y `ProductModel` y mostrará sus valores de retorno en la consola:
+
+```
+Dave
+123
+```
 
 ## Estructura del Proyecto
 
@@ -31,6 +43,16 @@ Esto creará instancias de las clases `User` y `ProductModel` y mostrará sus va
 ## Dependencias
 
 - Composer: Para la gestión de dependencias y carga automática.
+
+## Contribución
+
+Si deseas contribuir a este proyecto, por favor:
+
+1. Haz un fork del repositorio.
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz commit de tus cambios (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
 ## Notas
 
