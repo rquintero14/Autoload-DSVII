@@ -54,6 +54,6 @@ Si deseas contribuir a este proyecto, por favor:
 4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request.
 
-## Notas
+## Notas 
 
 Este proyecto es un ejemplo básico y no incluye funcionalidades avanzadas como bases de datos reales, rutas web o frameworks completos. Está diseñado para demostrar conceptos fundamentales de PHP y PSR.
